@@ -1,0 +1,30 @@
+// Place your key bindings in this file to override the defaults
+[
+    { "key": "f8",          
+        "command": "workbench.action.tasks.build"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.navigateUp"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.navigateDown"
+    },
+    {
+        "key": "ctrl+alt+,",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus && editorLangId == 'cpp'",
+        "args": {
+            "snippet": "std::cout << $1 << std::endl;"
+        }
+    }
+]

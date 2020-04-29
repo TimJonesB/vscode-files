@@ -1,0 +1,37 @@
+{
+    "C_Cpp.default.cppStandard": "c++14",
+    "window.zoomLevel": 2,
+    "workbench.activityBar.visible": false,
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "customizeUI.activityBar": "regular",
+    "workbench.useExperimentalGridLayout": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "workbench.sideBar.location": "left",
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.renderWhitespace": "all",
+    "editor.folding": false,
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "python.pythonPath": "C:\\v\\env1\\Scripts\\python.exe",
+    "editor.lineNumbers": "relative",
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+        "before": ["j", "k"],
+        "after": ["<Esc>"]
+        },
+        {
+        "before": ["k", "j"],
+        "after": ["<Esc>"]
+        }
+    ],
+
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#3b3b39"
+        },
+    ]
+}
