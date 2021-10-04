@@ -1,7 +1,7 @@
 #!/bin/bash
 
-settings_loc="~/.config/Code/User/settings.json"
-keybinds_loc="~/.config/Code/User/keybindings.json"
+settings_loc="$HOME/.config/Code/User/settings.json"
+keybinds_loc="$HOME/.config/Code/User/keybindings.json"
 
 function main() {
     if [ "$#" -eq 0 ]; then
@@ -22,13 +22,15 @@ function main() {
 }
 
 function inOp() {
-    echo "Copying origin's settings.json."
+    echo "Copying origin's settings.json and keybindings.json"
     cp settings.json $settings_loc
+    cp keybindings.json $keybindings_loc
 }
 
 function outOp() {
-    echo "Copying this settings.json to git."
+    echo "Copying this settings.json and keybindings.json to git."
     cp $settings_loc settings.json
+    cp $keybinds_loc keybindings.json
 }
 
 main "$@"

@@ -1,12 +1,16 @@
 {
-    "C_Cpp.default.cppStandard": "c++14",
+    "breadcrumbs.enabled": false,
+    "C_Cpp.default.cppStandard": "c++17",
     "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "cmake.configureOnOpen": true,
+    "cmake.buildBeforeRun": false,
     "editor.lineNumbers": "relative",
+    "editor.renderIndentGuides": false,
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
     "editor.renderWhitespace": "none",
     "editor.folding": false,
-    "editor.fontFamily": "'Ubuntu Mono', 'Liberation Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontFamily": "'Ubuntu Mono', 'Liberation Mono', 'Droid Sans Fallback'",
     "editor.rulers": [
         {
             "column": 80,
@@ -15,16 +19,59 @@
     ],
     "editor.minimap.enabled": false,
     "editor.hideCursorInOverviewRuler": true,
+    "editor.cursorStyle": "line",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
     "jupyter.sendSelectionToInteractiveWindow": true,
-    "python.pythonPath": "C:\\v\\env1\\Scripts\\python.exe",
+    "jupyter.askForKernelRestart": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
     "python.venvPath": "~/v",
     "python.terminal.launchArgs": [
         "-c",
         "\"from IPython import start_ipython; start_ipython()\""
     ],
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    "terminal.integrated.shellArgs.linux": ["-l"],
-    "window.menuBarVisibility": "toggle",
+    "python.defaultInterpreterPath": "C:\\v\\env1\\Scripts\\python.exe",
+    "python.pythonPath": "C:\\v\\env1\\Scripts\\python.exe",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
     "vim.insertModeKeyBindingsNonRecursive": [
         {
         "before": ["j", "k"],
@@ -35,20 +82,18 @@
         "after": ["<Esc>"]
         }
     ],
+    "window.menuBarVisibility": "toggle",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Gruvbox Material Light",
     "workbench.preferredLightColorTheme": "Gruvbox Material Light",
     "workbench.colorCustomizations": {
         "panel.border": "#3b3b39",
         "sideBar.border": "#3b3b39"
     },
-    "window.zoomLevel": 1,
-    "jupyter.askForKernelRestart": false,
-    "cmake.configureOnOpen": true,
-    "cmake.buildBeforeRun": false,
-    "editor.tabSize": 8,
-    "editor.cursorStyle": "line",
-    "editor.insertSpaces": false,
-    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-    "editor.wordWrap": "off"
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "workbench.iconTheme": "gruvbox-material-icon-theme",
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": 2,
 }
