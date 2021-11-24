@@ -15,6 +15,10 @@
         "key": "ctrl+j",
         "command": "workbench.action.navigateDown"
     },
+    {
+        "key": "ctrl+shift+[",
+        "command": "workbench.action.toggleEditorWidths"
+    },
     {   
         "key": "f4",          
         "command": "workbench.action.tasks.build"

@@ -10,7 +10,7 @@
     "editor.autoClosingQuotes": "never",
     "editor.renderWhitespace": "none",
     "editor.folding": false,
-    "editor.fontFamily": "'Ubuntu Mono', 'Liberation Mono', 'Droid Sans Fallback'",
+    "editor.fontFamily": "Ubuntu Mono",
     "editor.rulers": [
         {
             "column": 80,
